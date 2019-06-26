@@ -11,7 +11,7 @@
 				The fast, easy way to try on clothes in the comfort of your home.
 			</h3>
 			<div class="h-hero__actions">
-				<button type="button" class="btn btn--primary">
+				<button type="button" class="btn btn--primary btn--lrg">
 					Get Started
 				</button>
 			</div>

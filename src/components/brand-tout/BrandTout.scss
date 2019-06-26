@@ -1,0 +1,19 @@
+// brand tout
+
+.brand-tout {
+	padding-right: rem(15);
+	width: 33%;
+
+	&__ir {
+		background-color: $white;
+		@include irp(307/276);
+	}
+
+	&__img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		max-width: 90%;
+	}
+}

@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "shop-to-you",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,9 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "lazysizes": "^5.1.0",
     "vue": "^2.6.10",
-    "lazysizes": "^5.1.0"
+    "vue-flickity": "^1.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",

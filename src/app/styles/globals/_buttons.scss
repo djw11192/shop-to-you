@@ -14,18 +14,25 @@ button[type="button"],
 
 .btn {
 	border: 0;
-	border-radius: 2px;
+	border-radius: rem(5);
 	color: $white;
 	cursor: pointer;
 	display: inline-block;
-	letter-spacing: 0.8px;
 	text-align: center;
 	text-transform: uppercase;
 	padding: rem(18) rem(24);
-	font-size: rem(16);
+	font-size: rem(14);
+	font-family: $secondary-font;
+	font-weight: $bold;
+	font-weight: $medium;
+	letter-spacing: 1.2px;
 
 	&--primary {
 		background-color: $blue-1;
+	}
+
+	&--lrg {
+		font-size: rem(16);
 	}
 
 	&--full {
