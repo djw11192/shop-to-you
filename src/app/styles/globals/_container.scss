@@ -1,0 +1,12 @@
+// container
+.container {
+	margin: 0 auto;
+	max-width: $breakpoint-huge;
+	padding-left: rem(20);
+	padding-right: rem(20);
+
+	&--full {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

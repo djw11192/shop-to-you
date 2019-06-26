@@ -1,0 +1,39 @@
+/**
+* Lazy load
+*/
+.lazyload,
+.lazyloading {
+	opacity: 0;
+	transition: opacity 400ms ease-in-out;
+}
+
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+
+/**
+* Loading animation
+*/
+@keyframes rotating {
+
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/**
+* Is loading
+*/
+.is-loading {
+	position: relative;
+
+	&::before {
+		content: '';
+		@extend %loading;
+	}
+}

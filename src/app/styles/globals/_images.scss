@@ -1,0 +1,14 @@
+// images
+img {
+	max-width: 100%;
+}
+
+.ir {
+	@include irb();
+
+	img {
+		display: block;
+		min-height: 1px;
+		width: 100%;
+	}
+}

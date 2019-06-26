@@ -1,0 +1,43 @@
+// text formatting
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	background-color: $white;
+	color: $blue-1;
+	font-family: $primary-font;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	transition: font-size 400ms ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: $secondary-font;
+	font-weight: $regular;
+	color: $blue-1;
+	margin: 0;
+	letter-spacing: 0.7px;
+}
+
+h1 {
+	font-size: rem(54);
+}
+
+h2 {
+	font-size: rem(30);
+}
+
+p {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: $regular;
+	line-height: rem(24);
+}

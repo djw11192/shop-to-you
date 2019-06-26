@@ -1,0 +1,28 @@
+// Home Hero
+.h-hero {
+	position: relative;
+
+	&__img-wrap {
+		@include irp(1400/600);
+	}
+
+	&__img {
+		position: absolute;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	&__header {
+		position: absolute;
+		top: rem(90);
+		left: rem(70);
+	}
+
+	&__hdg-lrg {
+		margin-bottom: rem(15);
+	}
+
+	&__hdg-sm {
+		margin-bottom: rem(30);
+	}
+}

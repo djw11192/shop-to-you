@@ -1,0 +1,15 @@
+// tout
+.tout {
+	width: percentage(1/3);
+	padding: 0 rem(15);
+	text-align: center;
+
+	&__hdg {
+		text-align: center;
+	}
+
+	&__text {
+		text-align: center;
+		padding: 0 rem(30);
+	}
+}

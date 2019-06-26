@@ -1,0 +1,12 @@
+// instrinsic ratio
+@mixin irb() {
+	height: 0;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+// instrinsic ratio padding
+@mixin irp($ratio, $width: 100) {
+	padding-bottom: ($width / $ratio) * 1%;
+}
