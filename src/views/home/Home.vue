@@ -16,6 +16,9 @@ export default {
 		HomeHero,
 		HomeTouts,
 		HomeLocations
+	},
+	created() {
+		console.log('test');
 	}
 };
 </script>
