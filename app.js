@@ -3,11 +3,11 @@ const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://localhost/mean-angular5', { promiseLibrary: require('bluebird'), useNewUrlParser: true })
-  .then(() =>  console.log('connection succesful'))
-  .catch((err) => console.error(err));
+// const mongoose = require('mongoose');
+// mongoose.Promise = require('bluebird');
+// mongoose.connect('mongodb://localhost/mean-angular5', { promiseLibrary: require('bluebird'), useNewUrlParser: true })
+//   .then(() =>  console.log('connection succesful'))
+//   .catch((err) => console.error(err));
 
 const home = require('./api/routes/primary-router');
 const app = express();
