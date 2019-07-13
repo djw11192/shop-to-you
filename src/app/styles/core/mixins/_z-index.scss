@@ -1,0 +1,7 @@
+@mixin z($value) {
+	@each $key, $i in $z {
+		@if $key == $value {
+			z-index: $i;
+		}
+	}
+}

@@ -6,6 +6,7 @@ body {
 	color: $blue-1;
 	font-family: $primary-font;
 	font-weight: 400;
+	margin: 0;
 }
 
 h1,
@@ -46,4 +47,8 @@ p {
 	line-height: rem(24);
 	letter-spacing: 0.3px;
 	margin: 0 0 rem(30) 0;
+}
+
+a {
+	text-decoration: none;
 }

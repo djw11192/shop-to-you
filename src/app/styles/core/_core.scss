@@ -5,9 +5,12 @@
 @import 'vars/breakpoints';
 @import 'vars/colors';
 @import 'vars/text';
+@import 'vars/z-index';
+@import 'vars/global-heights';
 
 // mixins
 @import 'mixins/intrinsic-ratio';
+@import 'mixins/z-index';
 
 // placeholders
 @import 'placeholders/loading';

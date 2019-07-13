@@ -21,13 +21,18 @@ button {
 	text-transform: uppercase;
 	padding: rem(18) rem(24);
 	font-size: rem(14);
-	font-family: $secondary-font;
+	font-family: $primary-font;
 	font-weight: $bold;
-	font-weight: $medium;
 	letter-spacing: 1.2px;
 
 	&--primary {
 		background-color: $blue-1;
+	}
+
+	&--secondary {
+		border: 1px solid $blue-1;
+		background-color: transparent;
+		color: $blue-1;
 	}
 
 	&--lrg {

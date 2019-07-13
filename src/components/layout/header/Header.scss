@@ -1,0 +1,43 @@
+/**
+ * Header
+ */
+
+ .hdr {
+	 padding: rem(8) 0;
+	 border-bottom: 1px solid $gray-2;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 background-color: $white;
+	 @include z(forward);
+
+	 &__logo-wrap {
+		 max-width: rem(70);
+		 margin: 0 auto;
+	 }
+
+	 &__utils {
+		 position: absolute;
+		 right: 0;
+		 top: 50%;
+		 transform: translateY(-50%);
+	 }
+
+	 &__inner {
+		 position: relative;
+	 }
+
+	 .hdr__util-btn {
+		 font-size: rem(12);
+		 padding: rem(9);
+		 font-family: $primary-font;
+		 font-weight: $bold;
+		 min-width: rem(90);
+		 text-transform: none;
+
+		 &:first-of-type {
+			 margin-right: rem(10);
+		 }
+	 }
+ }
