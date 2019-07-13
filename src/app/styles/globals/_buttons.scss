@@ -1,6 +1,5 @@
 // button
-button[type="button"],
-[role="button"] {
+button {
 	cursor: pointer;
 
 	&:focus {
@@ -38,4 +37,10 @@ button[type="button"],
 	&--full {
 		width: 100%;
 	}
+}
+
+.btn-icon {
+	background-color: transparent;
+	border: none;
+	padding: 0;
 }

@@ -1,5 +1,5 @@
 <template>
-	<div class="h-touts container">
+	<section class="h-touts container">
 		<Tout
 			v-for="(tout, i) in touts"
 			:heading="tout.heading"
@@ -7,7 +7,7 @@
 			:icon="tout.icon"
 			:key="i"
 		/>
-	</div>
+	</section>
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {
 				},
 				{
 					heading: 'Pay After Shopping',
-					subheading: 'No payments are made until you decide which items you like',
+					subheading: 'No payments are made until you decide which items you like. We\'ll return the rest for you',
 					icon: 'IconCustomerClothes'
 				}
 			]

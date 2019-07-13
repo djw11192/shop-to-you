@@ -1,0 +1,25 @@
+/**
+ * form elements
+ */
+
+.form-item {
+
+}
+
+input,
+textarea,
+select {
+	box-sizing: border-box;
+}
+
+.input {
+	background-color: $white;
+	width: 100%;
+	padding: rem(10) rem(8);
+	font-size: rem(16);
+	color: $blue-1;
+}
+
+.input-placeholder {
+	position: relative;
+}

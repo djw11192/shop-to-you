@@ -1,0 +1,32 @@
+/**
+ * newsletter form
+ */
+
+.newsletter-form {
+	max-width: rem(600);
+	margin: 0 auto;
+
+	&__header {
+		max-width: rem(500);
+		margin: 0 auto;
+	}
+
+	&__title {
+		text-align: center;
+		color: $white;
+		margin-bottom: rem(20);
+	}
+
+	&__form {
+		max-width: rem(350);
+		margin: 0 auto;
+	}
+
+	&__arrow {
+		position: absolute;
+		right: 0;
+		top: 60%;
+		transform: translateY(-50%);
+		right: rem(8);
+	}
+}
